@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg");
+    height: 644px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 130px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    /* text-align: center; */
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero> :first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(95, 95, 95);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    font-family:'Poppins', sans-serif ;
+    padding: 3px 8px;
+    background-color: rgba(225, 225, 225, 0.177);
+    font-weight: 400;
+    position: relative;
+    color: white;
+    z-index: 10;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-red-sm {
+    background-color: #e50914;
+    color: white;
+    margin: 10px;
+}
+
+
+.main input {
+    padding: 8px 100px 8px 15px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-red {
+    background-color: #e50914;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 71px;
+    bottom: 0px;
+    width: 22vw;
+    right: 61px;
+}
+section.first> div{ 
+    display: flex;
+     flex-direction: column;
+}
+section.first> div :first-child{
+    font-size: 48px;
+    font-family:'Poppins', sans-serif ; 
+    font-weight: bolder;
+
+}
+section.first> div :nth-child(2){
+    color: white;
+
+    font: 24px;
+}
+.faq{
+    padding: 34px;
+    background-color: black;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    padding: 24px;
+    margin: 34px auto;
+    justify-content: space-between;
+    max-width: 60vw;
+    cursor: pointer;
+    font: 24px;
+    transition:all 1s ease-out; 
+    background-color: #2d2d2d;
+}
+.faqbox:hover{
+    background-color: #414141;
+    background-color: rgb(37, 36, 36);
+
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+    color: white;
+}
+footer span{
+    max-width: 60vw;
+    /* margin: 2px 30vw; */
+    max-width: 60vw;
+    /* text-align: center; */
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
